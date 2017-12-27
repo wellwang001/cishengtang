@@ -1,0 +1,116 @@
+.footer{
+
+    width: 100%;
+    height: 166px;
+    background-color: #ebe9e8;
+    text-align: center;
+}
+.footer>p{
+    font-size: 15px;
+    color: #484848;
+}
+.footer-nav{
+    width: 1195px;
+    height: 137px;
+    /* background-color: rebeccapurple; */
+    margin: 0 auto;
+    
+}
+.footer-nav>ul>li{
+    width: 239px;
+    height: 62px;
+    /* background-color:turquoise; */
+    float: left;
+    border-right: 3px solid #cecece;
+    box-sizing: border-box;
+    margin-top: 37.5px;
+}
+.footer-nav>ul>li:nth-child(2)>p{
+    background: url(../images/address.png) no-repeat 0 0;
+}
+
+
+
+.footer-nav-shop{
+    width: 236px;
+    height: 62px;
+    /* background-color:tomato; */
+}
+.footer-nav-shop>ul>li{
+    width: 167px;
+    height: 20px;
+    border: 1px solid #a5a5a4;
+   
+}
+.footer-nav>ul>li:nth-child(5){
+    width: 236px;
+    height: 100px;
+    border-right: none;
+    margin-top: 18.5px;
+}
+.footer-nav>ul>li:nth-child(5)>img{
+    height: 100%;
+}
+.footer-nav-shop>ul>li:nth-child(1){
+    width: 167px;
+    height: 20px;
+    text-align: center;
+    background: url(../images/down-tip.png) no-repeat;
+    margin-left: 34px;
+}
+.footer-nav-shop>ul>li:nth-child(1)>span{
+    width: 167px;
+    height: 20px;
+    font-size: 13px;
+    color: #484848;
+    line-height: 17px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+.footer-nav-shop>ul>li:nth-child(2){
+    width: 167px;
+    height: 20px;
+    text-align: center;
+    background: url(../images/down-tip.png) no-repeat 0 -26px;
+    margin-top: 18px;
+    margin-left: 34px;
+}
+.footer-nav-shop>ul>li:nth-child(2)>span{
+    width: 167px;
+    height: 20px;
+    font-size: 13px;
+    color: #484848;
+    line-height: 17px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+.footer-nav-email>ul>li:nth-child(1){
+   margin-left: 104px;
+   margin-bottom: 15px;
+   margin-top: 0px;
+    background: url(../images/adress.png) no-repeat 0 -38px ;
+}
+.footer ul li span{
+     color: #484848;
+}
+.footer-nav-email>ul>li:nth-child(2)>span{
+    font-size: 14px;
+   
+}
+.footer-nav-address>ul>li:nth-child(1){
+    background: url(../images/adress.png) no-repeat 0 0;
+    margin-left: 104px;
+   margin-bottom: 15px;
+    
+}
+.footer-nav-address>ul>li:nth-child(2)>span{
+    font-size: 14px;
+}
+.footer-nav-phone>ul>li:nth-child(1){
+    background: url(../images/adress.png) no-repeat 0 -67px;
+    margin-left: 104px;
+   margin-bottom: 15px;
+}
+.footer-nav-phone>ul>li:nth-child(2)>span{
+    font-size: 14px;
+}
